@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    height: 150px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.item {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+}
