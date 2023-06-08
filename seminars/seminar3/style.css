@@ -3,8 +3,12 @@
     padding: 0;
 }
 
-.top {
-    padding-bottom: 99px;
+body {
+    background-color: #040c1a;
+}
+
+.header {
+    background-color: #020a18;
 }
 
 .header {
@@ -17,14 +21,18 @@
     margin-bottom: 197px;
 }
 
-.subtitle {
+.main-subtitle {
     margin-bottom: 10px;
 }
 
-.title {
+.main-title {
     margin-bottom: 40px;
 }
 
-.top_buttons {
+.main-dsc {
+    text-align: center;
+}
+
+.button-box {
     margin-top: 50px;
 }
