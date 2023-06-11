@@ -114,3 +114,48 @@ body {
     margin-right: 10px;
     font-size: 20px;
 }
+
+.content {
+    display: grid;
+    gap: 30px; /* размер линий разделяющих ячейки */
+    grid-template-columns: repeat(3, 362px);
+    justify-content: center;
+    padding-top: 262px;
+    padding-bottom: 244px;
+}
+
+.item {
+    background: #132035;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+.item_big {
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
+}
+
+.heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.item_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
