@@ -11,14 +11,18 @@ body {
     background-color: #020a18;
 }
 
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
 .header {
     padding-top: 39;
     padding-bottom: 39;
 }
 
-.top_content {
+.main-box {
     margin-top: 160px;
-    margin-bottom: 197px;
 }
 
 .main-subtitle {
