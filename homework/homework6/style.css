@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #5D5D5D;
+}
+
+h1 {
+    color: #F16D7F;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.all {
+    display: grid;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    min-height: 75px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header_logos {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.background {
+    background-color: #F1E4E6;
+    display: flex;
+    align-items: center;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.background_image {
+    width: 50%;
+}
+
+.offer {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(2, 260px);
+    gap: 30px;
+    padding-top: 64px;
+    padding-bottom: 96px;
+    padding: 65px 230px;
+}
+
+.offer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer_content_big {
+    grid-column: 1 / -1;
+}
+
+.offer_content_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.products_list {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 100px repeat(4, 587px);
+    gap: 30px;
+    padding: 0px 230px;
+}
+
+.product {
+    background: #F8F8F8;
+}
+
+.products_list_header_info {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    text-align: center; 
+    max-height: 300px;
+
+}
+
+.products_info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+
+.product_price {
+    color: #F16D7F;
+}
+
+.products_button {
+    grid-column: 2;
+    grid-row: 4;
+    max-width: 212px;
+    max-height: 48px;
+    justify-content: center;
+    border-color: #FF6A6A;
+    background-color: #FFFFFF;
+    color: #FF6A6A;
+}
