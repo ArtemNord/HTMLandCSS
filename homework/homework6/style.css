@@ -8,8 +8,8 @@ p {
 }
 
 .center {
-    padding-left: calc(50% - 570px);
-    padding-right: calc(50% - 570px);
+    padding-left: calc(50% - 50vw);
+    padding-right: calc(50% - 50vw);
 }
 
 .all {
@@ -57,10 +57,22 @@ p {
     width: 50%;
 }
 
+.background_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
 .rectangle {
-    max-width: 12px;
-    max-height: 92px;
-    background-color: #631822;
+    width: 12px;
+    height: 92px;
+    background-color: #F16D7F;
+}
+
+.background_logo_text {
+    padding-left: 1vh;
 }
 
 .background_logo_text_big {
@@ -70,9 +82,15 @@ p {
 }
 
 .background_logo_text_normal {
+    display: flex;
+    justify-content: space-between;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
+}
+
+.fashion {
+    padding-left: 6px;
 }
 
 .pinktext {
@@ -82,12 +100,10 @@ p {
 .offer {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, 360px);
-    grid-template-rows: repeat(2, 260px);
+    grid-template-columns: repeat(3, 18vw);
+    grid-template-rows: 20vh 14vh;
     gap: 30px;
-    padding-top: 64px;
-    padding-bottom: 96px;
-    padding: 65px 230px;
+    padding: 5% 21.9%;
 }
 
 .offer_content {
@@ -103,6 +119,8 @@ p {
     justify-content: center;
     align-items: center;
     background-image: url(./img/woman.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     filter: brightness(60%);
 }
 
@@ -112,6 +130,8 @@ p {
     justify-content: center;
     align-items: center;
     background-image: url(./img/man.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .offer_content_kids {
@@ -120,6 +140,8 @@ p {
     justify-content: center;
     align-items: center;
     background-image: url(./img/kids.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .offer_content_big {
@@ -129,8 +151,9 @@ p {
     align-items: center;
     grid-column: 1 / -1;
     background-image: url(./img/accesories.svg);
-    max-height: 180px;
-    max-width: 1138px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100vw;
 }
 
 .offer_content_text {
@@ -148,14 +171,22 @@ p {
 .products_list {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, 360px);
-    grid-template-rows: 100px repeat(4, 587px);
+    grid-template-columns: repeat(3, 18vw);
+    grid-template-rows: 10vh repeat(2, 41vh) 10vh;
     gap: 30px;
-    padding: 0px 230px;
+    padding: 0% 21.9%;
+
 }
 
 .product {
     background: #F8F8F8;
+}
+
+.product_image{
+    display: flex;
+    justify-content: center;
+    width: 18vw;
+    height: 31vh;
 }
 
 .products_list_header_info {
