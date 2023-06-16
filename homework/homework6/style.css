@@ -23,8 +23,8 @@ p {
 }
 
 .header {
-    min-height: 75px;
-    padding: 0% 15%;
+    min-height: 8vh;
+    width: 100vw;
     background-color: #222222;
     display: flex;
     justify-content: space-between;
@@ -36,13 +36,15 @@ p {
 .header_logos {
     display: flex;
     align-items: center;
-    gap: 41px;
+    gap: 33px;
+    padding-left: 10%;
 }
 
 .menu {
     display: flex;
     align-items: center;
     gap: 33px;
+    padding-right: 10%;
 }
 
 .background {
@@ -77,16 +79,16 @@ p {
 
 .background_logo_text_big {
     font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 6vh;
+    line-height: 6vh;
 }
 
 .background_logo_text_normal {
     display: flex;
     justify-content: space-between;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 4vh;
+    line-height: 4vh;
 }
 
 .fashion {
