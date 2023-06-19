@@ -223,3 +223,30 @@ p {
     background-color: #FFFFFF;
     color: #FF6A6A;
 }
+
+@media screen (min-width: 768px) and (max-width: 1024px){
+    .all {
+        flex-wrap: wrap;
+      }
+    
+    .header {
+        width: 100%;
+        margin-bottom: 2%;
+      }
+    
+    .item-parent {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+    
+    .background {
+        margin-bottom: 0;
+      }
+    
+    
+    .offer {
+        flex-wrap: wrap;
+        grid-column: auto;
+      }
+}
