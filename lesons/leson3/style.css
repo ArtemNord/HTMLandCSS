@@ -18,6 +18,36 @@
     text-decoration: none;
 }
 
+.header_link:hover {
+    color: orange;
+}
+
+.header_link:active {
+    color: red;
+}
+
+.header_link:first-child {
+    text-decoration:underline;
+}
+
+.header_link:last-child {
+    border-right: 1px solid orange;
+    padding-right: 32px;
+}
+
+.header_link:nth-child(2n) {
+    color: #7d7987;
+}
+
+.list_item_new::after {
+    content: ' new!';
+    color: red;
+}
+
+.list_item:hover::after {
+    content: ' <<';
+}
+
 .top {
     padding-top: 84px;
     padding-bottom: 84px;
