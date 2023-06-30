@@ -1,0 +1,8 @@
+.text-color {
+    color: rgb(8, 8, 8);
+}
+
+.center {
+    padding-left: calc(50% - 200px);
+    padding-right: calc(50% - 200px);
+}
