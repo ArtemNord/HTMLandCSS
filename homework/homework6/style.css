@@ -283,8 +283,8 @@ a {
 
 .buy__me__cover {
     background: rgba(58, 56, 56, 0.86);
-    height: 420px;
-    width: 360px;
+    height: 72%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
